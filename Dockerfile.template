@@ -14,6 +14,6 @@ RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
 
 EXPOSE 22
 EXPOSE 8000
-EXPOSE 8002
+EXPOSE 8082
 
 CMD    ["/usr/sbin/sshd", "-D"]
